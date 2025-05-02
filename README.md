@@ -5,7 +5,7 @@
 ## URLs
 
 - [Chromium Projects](https://www.chromium.org/chromium-projects/)
-- [Chromium Docs](https://chromium.googlesource.com/chromium/src/+/main/docs)
+- [Chromium Docs](https://chromium.googlesource.com/chromium/src/+/main/docs/README.md)
 - [Chromium Contribution Guide](https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md)
 - [Chromium-dev group](https://groups.google.com/u/2/a/chromium.org/g/chromium-dev)
 - [blink-dev group](https://groups.google.com/a/chromium.org/g/blink-dev)
