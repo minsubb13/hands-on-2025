@@ -1,12 +1,10 @@
 ---
-title: 크로미움 접근성 개선
-date: 2025-03-15
-author: jane-doe
-contribution_url: https://chromium-review.googlesource.com/c/chromium/src/+/98765
-difficulty: 쉬움
-category: 접근성
-labels: ["a11y", "screen-reader", "UI"]
-status: in review
+title: "CL 6345678: Improve CSS parsing performance"
+date: 2023-01-15
+author: amoseui
+contribution_url: https://chromium-review.googlesource.com/c/chromium/src/+/6345678
+labels: ["performance", "CSS", "rendering"]
+status: merged
 ---
 
 # 크로미움 접근성 개선 작업

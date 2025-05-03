@@ -1,11 +1,9 @@
 ---
-title: 크로미움 접근성 개선
-date: 2025-03-15
-author: jane-doe
-contribution_url: https://chromium-review.googlesource.com/c/chromium/src/+/98765
-difficulty: 쉬움
-category: 접근성
-labels: ["a11y", "screen-reader", "UI"]
+title: "CL 4234567: Improve UI performance"
+date: 2022-06-15
+author: amoseui
+contribution_url: https://chromium-review.googlesource.com/c/chromium/src/+/4234567
+labels: ["performance", "UI"]
 status: in review
 ---
 

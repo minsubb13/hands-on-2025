@@ -1,11 +1,9 @@
 ---
-title: 크로미움 접근성 개선
-date: 2025-03-15
-author: jane-doe
-contribution_url: https://chromium-review.googlesource.com/c/chromium/src/+/98765
-difficulty: 쉬움
-category: 접근성
-labels: ["a11y", "screen-reader", "UI"]
+title: "CL 6508544: Fix broken links in Prerender WPT tests guide"
+date: 2023-05-03
+author: amoseui
+contribution_url: https://chromium-review.googlesource.com/c/chromium/src/+/6508544
+labels: ["documentation", "testing", "prerender"]
 status: in review
 ---
 

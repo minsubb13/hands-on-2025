@@ -30,7 +30,8 @@ jest.mock('gray-matter', () => {
           data,
           content
         };
-      } catch (e) {
+      } catch (_) {
+        // 파싱 오류 시 빈 데이터 반환
         return { data: {}, content: content };
       }
     }
@@ -38,17 +39,6 @@ jest.mock('gray-matter', () => {
     return { data: {}, content };
   });
 });
-
-jest.mock('remark', () => ({
-  remark: jest.fn().mockImplementation(() => ({
-    use: jest.fn().mockReturnThis(),
-    process: jest.fn().mockResolvedValue({
-      toString: jest.fn().mockReturnValue('<p>테스트 HTML 내용</p>')
-    })
-  }))
-}));
-
-jest.mock('remark-html', () => jest.fn());
 
 describe('contributions 유틸리티', () => {
   beforeEach(() => {
@@ -130,7 +120,7 @@ contribution_url: https://example.com
       expect(contribution?.title).toBe('테스트 컨트리뷰션');
       expect(contribution?.author).toBe('홍길동');
       expect(contribution?.contributionUrl).toBe('https://example.com');
-      expect(contribution?.contentHtml).toBe('<p>테스트 HTML 내용</p>');
+      expect(contribution?.contentHtml).toBe('<p>테스트 컨트리뷰션 내용</p>');
     });
     
     it('컨트리뷰션 파일이 없으면 null을 반환합니다', async () => {

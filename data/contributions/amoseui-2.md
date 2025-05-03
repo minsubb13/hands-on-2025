@@ -1,12 +1,10 @@
 ---
-title: 크로미움 접근성 개선
-date: 2025-03-15
-author: jane-doe
-contribution_url: https://chromium-review.googlesource.com/c/chromium/src/+/98765
-difficulty: 쉬움
-category: 접근성
-labels: ["a11y", "screen-reader", "UI"]
-status: in review
+title: "CL 3979423: Remove unnecessary code"
+date: 2022-05-02
+author: amoseui
+contribution_url: https://chromium-review.googlesource.com/c/chromium/src/+/3979423
+labels: ["code-cleanup", "refactoring"]
+status: merged
 ---
 
 # 크로미움 접근성 개선 작업
